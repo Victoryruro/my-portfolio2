@@ -6,10 +6,9 @@ const Header = () => {
     <>
         <nav>
             <ul className="page">
-                <li><link to='/' />Home</li>
-                <li><link to='#projects' />Projects</li>
-                <li><link to='#about' />Socials</li>
-               
+                <li><a href='#'>Home</a></li>
+                <li><a href='#projects'>Projects</a></li>
+                <li><a href='#contact'>Socials</a></li>
 
             </ul>
         </nav>

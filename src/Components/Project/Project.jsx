@@ -16,7 +16,7 @@ const Project = () => {
         centerPadding: "",
         slidesToShow:2,
         speed: 300,
-        rows:1,
+        rows:2,
         slidesPerRow:1,
         dots: true,
         
