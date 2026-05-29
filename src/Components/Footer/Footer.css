@@ -1,6 +1,6 @@
 footer {
-  background-color: #696868;
-  color: #fff;
+  background-color: var(--card-bg);
+  color: var(--text-color);
   text-align: center;
   padding: 20px;
   font-weight: 600;

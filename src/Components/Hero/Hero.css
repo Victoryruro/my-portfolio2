@@ -1,5 +1,5 @@
 .red{
-    color: red;
+    color:red;
     text-decoration: overline 4px;
 }
 .Hero{
@@ -12,7 +12,7 @@
     justify-content: center;
     text-align: center;
     overflow: hidden;
-    color:#0f0f11 ;
+    color: var(--text-color);
     align-items: center;
 }
 .Hero::before{
@@ -30,29 +30,31 @@
     z-index: 1;
 }
 h1{
-    color: antiquewhite;
+    color: aliceblue;
 }
 .about{
-    color: #3be3f6;    
+    color: var(--accent-color);
     text-align: center;
     width: 60%;
-    line-height: 30px;
+    line-height: 50px;
+    font-size: 2rem;
 }
 h3{
     font-weight: 600;
     
+    
 }
 .span{
-    color: antiquewhite;
+    color: aliceblue;
     font-size: 2rem;
 }
 .curly::before{
     content: "{";
-    color: antiquewhite;
+    color: aliceblue;
 }
 .curly::after{
     content: "}";
-    color: antiquewhite;
+    color:aliceblue;
 }
 @media screen and (max-width:768px){
     .Hero{

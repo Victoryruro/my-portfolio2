@@ -7,7 +7,7 @@ const Hero = () => {
         <div className="Hero">
 
             <h1>Developer <span className='red'>ALERT</span></h1>
-            <h2 className='about'>I am Vic_Ruro, a passionate Web developer with a keen interest in <span className='curly'>Modern Frontend Stack</span>. <br /> I Undoubtly create <span className='span'>Impactful</span> and <span className='span'>Visually </span> stunning Software solution that leave a lasting solution    </h2> 
+            <h2 className='about'>I am Vic_Ruro, a passionate Web developer with a keen interest in <span className='curly'>Modern Frontend Stack</span>. I Undoubtly create <span className='span'>Impactful</span> and <span className='span'>Visually </span> stunning Software solution that leave a lasting solution    </h2> 
         </div>
            
     </>

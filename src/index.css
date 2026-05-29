@@ -85,7 +85,8 @@ h1 {
   }
 }
 h2 {
-  font-size: 24px;
+  font-size: 30px;
+  color: var(--text-color);
   line-height: 118%;
   letter-spacing: -0.24px;
   margin: 0 0 8px;
@@ -96,4 +97,60 @@ h2 {
 p {
   margin: 0;
 }
+/* Light Mode (Default) */
+:root {
+  --bg-color: #ffffff;
+  --text-color: #1a1a1a;
+  --card-bg: #f8f9fa;
+  --border-color: #e0e0e0;
+  --accent-color: #0066ff;
+}
 
+/* Dark Mode */
+.dark {
+  --bg-color: #0a0a0a;
+  --text-color: #f0f0f0;
+  --card-bg: #1a1a1a;
+  --border-color: #333333;
+  --accent-color: #4d9fff;
+  --social-color:rgb(148, 216, 236) ;
+}
+
+/* Apply to body */
+body {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  transition: background-color 0.4s ease, color 0.4s ease;
+}
+
+/* Theme Toggle Button */
+.theme-toggle {
+  position: fixed;
+  top: 50vh;
+  right: 25px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: var(--card-bg);
+  border: 2px solid var(--border-color);
+  font-size: 1.6rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  z-index: 1000;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.theme-toggle:hover {
+  transform: scale(1.1) rotate(25deg);
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+}
+
+/* Optional: Make your cards and sections use the variables */
+.card {
+  background-color: var(--card-bg);
+  border: 1px solid var(--border-color);
+  transition: all 0.4s ease;
+}
