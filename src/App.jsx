@@ -4,6 +4,8 @@ import './App.css'
 import Project from './Components/Project/Project'
 import Head from './Components/Header/Head'
 import Social from './Components/Social/Social'
+import Footer from './Components/Footer/Footer'
+import Hero from './Components/Hero/Hero'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -12,8 +14,10 @@ function App() {
     <>
       <Head />
       <Header /> 
+      <Hero/>
       <Project /> 
       <Social />
+      <Footer />
       
     </>
   )
