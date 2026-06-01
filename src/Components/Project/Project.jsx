@@ -21,15 +21,34 @@ const Project = () => {
         dots: true,
         
         responsive: [
+         {
+      breakpoint: 1024,   // Large screens
+      settings: {
+        slidesToShow: 2,
+        slidesToScroll: 1,
+      }
+    },
+    {
+      breakpoint: 768,    // Tablets
+      settings: {
+        slidesToShow: 1,  // or 2 if you want 2 on big tablets
+        slidesToScroll: 1,
+      }
+    },
+    {
+      breakpoint: 480,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1,
+      }
+    },
         {
-            breakpoint: 800,
-            settings: {
-            slidesToShow: 1,
-            slidesToScroll: 1,
-            
-            }
-        },
-
+      breakpoint: 300,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1,
+      }
+    }
         ]
   };  
   return (

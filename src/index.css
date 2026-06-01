@@ -11,8 +11,8 @@
   --shadow:
     rgba(0, 0, 0, 0.1) 0 10px 15px -3px, rgba(0, 0, 0, 0.05) 0 4px 6px -2px;
 
-  --sans: system-ui, 'Segoe UI', Roboto, sans-serif;
-  --heading: system-ui, 'Segoe UI', Roboto, sans-serif;
+  --sans: 'Inter', system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  --heading: 'Poppins', var(--sans);
   --mono: ui-monospace, Consolas, monospace;
 
   font: 18px/145% var(--sans);
@@ -99,21 +99,23 @@ p {
 }
 /* Light Mode (Default) */
 :root {
-  --bg-color: #ffffff;
-  --text-color: #1a1a1a;
-  --card-bg: #f8f9fa;
-  --border-color: #e0e0e0;
-  --accent-color: #0066ff;
+  --bg-color: #F4F7FF;
+  --text-color: #1F2937;
+  --muted-color: #4B5563;
+  --card-bg: #FFFFFF;
+  --border-color: #E5E7EB;
+  --accent-color: #4F46E5;
 }
 
 /* Dark Mode */
 .dark {
-  --bg-color: #0a0a0a;
-  --text-color: #f0f0f0;
-  --card-bg: #1a1a1a;
-  --border-color: #333333;
-  --accent-color: #4d9fff;
-  --social-color:rgb(148, 216, 236) ;
+  --bg-color: #0F172A;
+  --text-color: #E2E8F0;
+  --muted-color: #94A3B8;
+  --card-bg: #111827;
+  --border-color: #334155;
+  --accent-color: #60A5FA;
+  --social-color: rgb(148, 216, 236);
 }
 
 /* Apply to body */

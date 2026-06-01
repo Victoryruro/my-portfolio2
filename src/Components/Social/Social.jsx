@@ -7,8 +7,8 @@ const Social = () => {
     <>
         <div className="container" id='contact'>
 
-            <h2>My Socials</h2>
-            <p>Get in touch with me on my social media profiles!</p>
+            <h2 className='socialtitle'>My Socials</h2>
+            <p className='socialdescription'>Get in touch with me on my social media profiles!</p>
             <div className="Socialcontainer">
                 
                 <div className="social-links">

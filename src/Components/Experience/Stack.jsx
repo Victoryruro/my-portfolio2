@@ -10,8 +10,8 @@ const Stack = () => {
   return (
     <>
         <div className="stack">
-            <h2>Experience</h2>
-            <p>I have experience working with various technologies and frameworks for over 2 years.</p>
+            <h2 className='stacktitle'>Experience</h2>
+            <p className='stackdescription'>I have experience working with various technologies and frameworks for over 2 years.</p>
             <div className="stackcontainer">
 
                 <div className="stackitem">
