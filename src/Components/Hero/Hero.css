@@ -65,7 +65,7 @@ h3{
     
 }
 .span{
-    color: aliceblue;
+    color: var(--accent-color);
     font-size: 2rem;
 }
 .curly::before{

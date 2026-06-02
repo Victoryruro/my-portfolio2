@@ -16,7 +16,7 @@ const Project = () => {
         centerPadding: "",
         slidesToShow:2,
         speed: 300,
-        rows:2,
+        rows:3,
         slidesPerRow:1,
         dots: true,
         
@@ -67,6 +67,7 @@ const Project = () => {
                             <h3 className="project-title">{project.title}</h3>
                             <div className="project-built">
                                 <strong>Built with:</strong> {project.built}
+                                <br />{project.credits}
                             </div>
                             <div className="project-links">
                             

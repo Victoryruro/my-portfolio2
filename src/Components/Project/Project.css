@@ -13,7 +13,7 @@
 }
 
 .project .slick-slider {
-  width: 100%;
+  width: 90%;
   max-width: 1200px;
   margin: 0 auto;
 }
@@ -133,10 +133,14 @@
   .project-card img {
     height: 230px;
   }
+    .project .slick-slider {
+    width: 90%;
+  }
 }
 
+
 /* Small Tablet / Large Mobile */
-@media (max-width: 768px) {
+@media screen and (max-width: 768px) {
   .project {
     padding: 30px 15px;
   }
